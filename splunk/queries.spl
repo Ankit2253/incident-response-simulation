@@ -1,1 +1,3 @@
 index=windows sourcetype=Microsoft-Windows-Sysmon/Operational Image="*malware.exe"
+index=windows CommandLine="*EncodedCommand*"
+index=windows DestinationIP!="192.168.*"
