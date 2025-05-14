@@ -1,0 +1,1 @@
+index=windows sourcetype=Microsoft-Windows-Sysmon/Operational Image="*malware.exe"

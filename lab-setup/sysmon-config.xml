@@ -1,0 +1,7 @@
+<Sysmon schemaversion="4.21">
+  <EventFiltering>
+    <ProcessCreate onmatch="include">
+      <CommandLine condition="contains">malware.exe</CommandLine>
+    </ProcessCreate>
+  </EventFiltering>
+</Sysmon>
